@@ -1,7 +1,5 @@
 .container{
-    margin-bottom: 50px;
-    
-    
+    margin-bottom: 50px;  
 }
 ul li{
     padding: 0 5px;
@@ -16,8 +14,7 @@ ul li{
     border: none;
     border-radius: 10px;
 }
-.carosel-img{
-    
+.carosel-img{ 
     background-image: url("../images/bg-1.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -49,8 +46,6 @@ ul li{
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 10%;
-    
-
 }
 .price{
     font-size: 18px;
@@ -89,11 +84,26 @@ ul li{
 .cat-row{
     margin-top: 30px;   
 }
-.cat-row .row{ 
-    margin: 10px; 
+
+.cat-row .row, .img1{ 
+    margin: auto;
+  
 }
 .img1, .cat-row .row img{
     padding: 30px;
+   
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+.categories img{
+    width: 100%;   
+}
+@media only screen and (max-width: 600px) {
+   
+    .cat-row div{
+        margin: 10px;
+    }
+    .carousel-inner .col-md-6{
+        text-align: center;
+    }   
+  }
